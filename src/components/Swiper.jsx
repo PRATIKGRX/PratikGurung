@@ -14,8 +14,8 @@ export default function MySlider() {
       longDesc: "Lorem ipsum dolor sit amet...",
       image: "/assets/project-1.png",
 
-      liveLink: "",
-      githubLink: "",
+      liveLink: "https://gaming-website-k8tt.vercel.app/",
+      githubLink: "https://github.com/PRATIKGRX/gaming-website",
     },
     {
       title: "Weather Forecast",
@@ -23,8 +23,8 @@ export default function MySlider() {
       longDesc: "Lorem ipsum dolor sit amet...",
       image: "/assets/project-2.png",
 
-      liveLink: "",
-      githubLink: "",
+      liveLink: "https://weather-app-ba9e1.web.app/",
+      githubLink: "https://github.com/PRATIKGRX/Weather-App",
     },
     {
       title: "Simple Calculator",
@@ -32,8 +32,8 @@ export default function MySlider() {
       longDesc: "Lorem ipsum dolor sit amet...",
       image: "/assets/project-3.png",
 
-      liveLink: "",
-      githubLink: "",
+      liveLink: "https://pratikgrx.github.io/Simple_Calculator/",
+      githubLink: "https://github.com/PRATIKGRX/Simple_Calculator",
     },
     {
       title: "Dummy Portfolio",
@@ -41,8 +41,8 @@ export default function MySlider() {
       longDesc: "Lorem ipsum dolor sit amet...",
       image: "/assets/project-4.png",
 
-      liveLink: "",
-      githubLink: "",
+      liveLink: "https://pratikgrx.github.io/Portfolio_Dummy_personal/",
+      githubLink: "https://github.com/PRATIKGRX/Portfolio_Dummy_personal",
     },
     {
       title: "3d Website",
@@ -50,8 +50,8 @@ export default function MySlider() {
       longDesc: "Lorem ipsum dolor sit amet...",
       image: "/assets/project-5.png",
 
-      liveLink: "",
-      githubLink: "",
+      liveLink: "https://pratik-grx3d-project.vercel.app/",
+      githubLink: "https://github.com/PRATIKGRX/PratikGrx3dProject",
     },
     // Add more projects
   ];

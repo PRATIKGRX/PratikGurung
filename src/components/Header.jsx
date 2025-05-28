@@ -11,7 +11,7 @@ const Header = () => {
   };
   return (
     <>
-    <div className="flex justify-between items-center fixed top-0 left-0 right-0 h-10 md:h-16 xl:h-20 px-3 md:px-6 lg:px-20 backdrop-blur-sm bg-black/50 shadow-[0_5px_10px_0px_rgba(0,0,0,0.5)] z-[999]">
+    <div className="flex justify-between items-center fixed top-0 left-0 right-0 h-10 md:h-16 xl:h-20 px-3 md:px-6 lg:px-20 backdrop-blur-sm bg-black/50 shadow-[0_5px_10px_0px_rgba(0,0,0,0.5)] z-[800]">
       <div>
         <h1 className="text-xl font-bold tracking-wider xl:text-3xl">Pratik Grx</h1>
       </div>
@@ -68,7 +68,7 @@ const Header = () => {
       
     </div>
     <div
-        className={`fixed top-0 right-0 w-screen h-screen bg-black/60 backdrop-blur-sm z-50 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 w-screen h-screen bg-black/60 backdrop-blur-sm z-[999] transform transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
