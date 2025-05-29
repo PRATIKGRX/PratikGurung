@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <main>
-      <div className="h-[calc(100vh-40px)] md:h-[calc(100vh-64px)] xl:h-[calc(100vh-80px)] flex justify-center items-center px-3 md:px-14 lg:px-40 xl:px-60 mt-10 md:mt-16 xl:mt-20">
+      <div className="h-[calc(100vh-40px)] md:h-[calc(100vh-64px)] xl:h-[calc(100vh-80px)] flex justify-center relative z-30 items-center px-3 md:px-14 lg:px-40 xl:px-60 mt-10 md:mt-16 xl:mt-20">
         <div className="flex flex-col gap-7 md:gap-10">
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl md:text-5xl xl:text-6xl tracking-wider">

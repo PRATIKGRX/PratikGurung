@@ -20,7 +20,7 @@ const About = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <main>
+    <main className="relative z-30">
       <div className="block md:hidden fixed bottom-4 right-4 z-[400]">
       <Link to="top" smooth={true} duration={500}>
         <button
@@ -87,7 +87,7 @@ const About = () => {
             <div className="flex flex-col gap-4 md:grid md:grid-cols-[25%_70%] md:gap-10">
               <div className="w-full h-full overflow-hidden rounded-xl">
                 <img
-                  src="https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/480958295_1667221091342813_8878383285659530867_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFC3cdGchYCCqJR0BpgILfo2dp5g9JXS0TZ2nmD0ldLRClL1FbM6Ib6UvjQRQ86go4aGDZHLgdUrwh1XcZ-UNPg&_nc_ohc=nTCeNtO1nn0Q7kNvwEmt_su&_nc_oc=AdnmVzFQ_CmpmNUkPF0JXw6zV2A7r-9ggrFiZG40zEuH8b4HAVZUtFZwsED6fP7tkLVq0QcWIoBrbKDrFv3Z3XJB&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=v5n_EtLAhz6K39Gv_vPNMg&oh=00_AfIRaTPty1_UXmZBa2NZuWcY4JhUnyUj7aH4F1XKO-60JQ&oe=683BBBAD"
+                  src="https://scontent.fktm19-1.fna.fbcdn.net/v/t39.30808-6/480958295_1667221091342813_8878383285659530867_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFC3cdGchYCCqJR0BpgILfo2dp5g9JXS0TZ2nmD0ldLRClL1FbM6Ib6UvjQRQ86go4aGDZHLgdUrwh1XcZ-UNPg&_nc_ohc=RaxLXuLn7MEQ7kNvwGryROQ&_nc_oc=AdnsTAr4mKmToOjj4r4Le5tCMu9aTWImt25Ea3lYTOKHg06E-AAR20qDFLP4f3lSZHs&_nc_zt=23&_nc_ht=scontent.fktm19-1.fna&_nc_gid=dVcVlfdWkOxHo5aAWCBeXg&oh=00_AfLOsVODMOGI_jnmoQK4XxOVh4OcDSyacuiJLxkPBe1H6g&oe=683DEE2D"
                   alt=""
                   className="w-full h-full"
                 />

@@ -5,8 +5,8 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { AiOutlineFacebook } from "react-icons/ai";
 const Contact = () => {
   return (
-    <footer>
-      <div className="flex flex-col items-center gap-2 md:gap-8 mt-10 md:mt-16 xl:mt-20">
+    <footer className="flex flex-col justify-between h-screen">
+      <div className="flex flex-col items-center relative z-30 gap-2 md:gap-8 mt-10 md:mt-16 xl:mt-20">
         <div className="text-center">
             <h4 className="text-3xl md:text-5xl font-bold tracking-wider">Contact</h4>
         <p className="text-lg md:text-xl font-medium text-[#c4c4c4]">Message me to collabe with me.</p>
@@ -46,6 +46,9 @@ const Contact = () => {
             </div>
             </form>
         </div>
+      </div>
+      <div className="relative z-30 flex justify-center text-sm md:text-md">
+        <p>&copy; 2025 Pratik Grx. All rights reserved.</p>
       </div>
     </footer>
   );

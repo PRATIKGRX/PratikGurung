@@ -4,10 +4,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
+import MouseFollower from "./components/MouseFollow";
 const App = () => {
   return (
     <>
-
+    <MouseFollower/>
       <header>
         <Header />
       </header>

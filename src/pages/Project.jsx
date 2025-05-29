@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <main>
 
-      <div className="px-3 md:px-6 lg:px-20 xl:px-20 mt-10 md:mt-16 xl:mt-20">
+      <div className="px-3 md:px-6 lg:px-20 xl:px-20 mt-10 md:mt-16 xl:mt-20 relative z-30">
         <MySlider/>
         
         <section>
