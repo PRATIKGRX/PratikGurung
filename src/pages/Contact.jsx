@@ -41,7 +41,7 @@ const [visible, setVisible] = useState(false);
 
   return (
     <footer className="flex flex-col justify-between h-screen">
-      <div className="flex flex-col items-center relative z-30 gap-2 md:gap-8 mt-10 md:mt-16 xl:mt-20">
+      <div className="flex flex-col items-center relative z-30 gap-2 md:gap-8 pt-50 md:pt-46 xl:pt-20">
         <div className="text-center">
             <h4 className="text-3xl md:text-5xl font-bold tracking-wider">Contact</h4>
         <p className="text-lg md:text-xl font-medium text-[#c4c4c4]">Message me to collabe with me.</p>

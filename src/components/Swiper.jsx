@@ -53,7 +53,6 @@ export default function MySlider() {
       liveLink: "https://pratik-grx3d-project.vercel.app/",
       githubLink: "https://github.com/PRATIKGRX/PratikGrx3dProject",
     },
-    // Add more projects
   ];
 
   return (
