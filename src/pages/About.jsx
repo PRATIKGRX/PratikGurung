@@ -87,7 +87,7 @@ const About = () => {
             <div className="flex flex-col gap-4 md:grid md:grid-cols-[25%_70%] md:gap-10">
               <div className="w-full h-full overflow-hidden rounded-xl">
                 <img
-                  src="https://scontent.fktm19-1.fna.fbcdn.net/v/t39.30808-6/480958295_1667221091342813_8878383285659530867_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFC3cdGchYCCqJR0BpgILfo2dp5g9JXS0TZ2nmD0ldLRClL1FbM6Ib6UvjQRQ86go4aGDZHLgdUrwh1XcZ-UNPg&_nc_ohc=RaxLXuLn7MEQ7kNvwGryROQ&_nc_oc=AdnsTAr4mKmToOjj4r4Le5tCMu9aTWImt25Ea3lYTOKHg06E-AAR20qDFLP4f3lSZHs&_nc_zt=23&_nc_ht=scontent.fktm19-1.fna&_nc_gid=dVcVlfdWkOxHo5aAWCBeXg&oh=00_AfLOsVODMOGI_jnmoQK4XxOVh4OcDSyacuiJLxkPBe1H6g&oe=683DEE2D"
+                  src="public/assets/profile.jpg"
                   alt=""
                   className="w-full h-full"
                 />
@@ -131,19 +131,19 @@ const About = () => {
               <div className="flex flex-col gap-3">
                 <p className="text-md xl:text-lg font-bold">Interest</p>
                 <div className="md:grid md:grid-cols-4 flex items-center gap-4">
-                  <div className="flex flex-col items-center border transform-all duration-300 hover:bg-white hover:text-black md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
+                  <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
                     <TfiGame />
                     <p>Games</p>
                   </div>
-                   <div className="flex flex-col items-center border transform-all duration-300 hover:bg-white hover:text-black md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
+                   <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
                     <LuCodeXml />
                     <p>Coding</p>
                   </div>
-                   <div className="flex flex-col items-center border transform-all duration-300 hover:bg-white hover:text-black md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
+                   <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
                     <CiPlay1 />
                     <p>Movies</p>
                   </div>
-                   <div className="flex flex-col items-center border transform-all duration-300 hover:bg-white hover:text-black md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
+                  <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
                     <PiMicrophoneStage />
                     <p>Beatbox</p>
                   </div>
