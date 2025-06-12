@@ -3,7 +3,7 @@ import { TfiGame } from "react-icons/tfi";
 import { LuCodeXml } from "react-icons/lu";
 import { CiPlay1 } from "react-icons/ci";
 import { PiMicrophoneStage } from "react-icons/pi";
-import { Link,Element } from "react-scroll";
+import { Link, Element } from "react-scroll";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -22,20 +22,26 @@ const About = () => {
   return (
     <main className="relative z-30">
       <div className="block md:hidden fixed bottom-4 right-4 z-[400]">
-      <Link to="top" smooth={true} duration={500}>
-        <button
-          className={`p-3 bg-white text-black rounded-full transition-all duration-700 ease-in-out
-            ${showButton ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10 pointer-events-none'}`}
-        >
-          <FaAnglesUp />
-        </button>
-      </Link>
-    </div>
-      
+        <Link to="top" smooth={true} duration={500}>
+          <button
+            className={`p-3 bg-white text-black rounded-full transition-all duration-700 ease-in-out
+            ${
+              showButton
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 translate-x-10 pointer-events-none"
+            }`}
+          >
+            <FaAnglesUp />
+          </button>
+        </Link>
+      </div>
+
       <div className="px-3 md:px-6 lg:px-20 xl:px-20 flex flex-col md:grid md:grid-cols-[30%_70%] ">
-        <div className="hidden md:block ">
-        </div>
-        <Element name="top" className="flex md:flex-col gap-10 md:fixed pt-10 md:pt-16 xl:pt-20">
+        <div className="hidden md:block "></div>
+        <Element
+          name="top"
+          className="flex md:flex-col gap-10 md:fixed pt-10 md:pt-16 xl:pt-20"
+        >
           <div className="">
             <h4 className="text-xl md:text-3xl xl:text-5xl font-bold">
               ABOUT ME
@@ -46,49 +52,72 @@ const About = () => {
           </div>
           <ul className="flex flex-col text-md tracking-wide text-[#afafaf]">
             <li className="">
-           <Link spy={true} activeClass="active" to="introduction" smooth={true} duration={500} className="flex items-center gap-5 group/aboutNav cursor-pointer">
-              <span className="inline-flex transform origin-left transition-transform duration-500 ease-in-out group-hover/aboutNav:scale-x-200 group-hover/aboutNav:text-white group-[.active]/aboutNav:scale-x-200 group-[.active]/aboutNav:text-white">
-                <FaMinus className="text-2xl" />
-              </span>
-              <p className="transform transition-all duration-500 ease-in-out group-hover/aboutNav:translate-x-[5px] group-hover/aboutNav:text-white group-hover/aboutNav:text-md group-[.active]/aboutNav:translate-x-[5px] group-[.active]/aboutNav:text-white group-[.active]/aboutNav:text-md ">
-                Introduction
-              </p>
-            </Link>
+              <Link
+                spy={true}
+                activeClass="active"
+                to="introduction"
+                smooth={true}
+                duration={500}
+                className="flex items-center gap-5 group/aboutNav cursor-pointer"
+              >
+                <span className="inline-flex transform origin-left transition-transform duration-500 ease-in-out group-hover/aboutNav:scale-x-200 group-hover/aboutNav:text-white group-[.active]/aboutNav:scale-x-200 group-[.active]/aboutNav:text-white">
+                  <FaMinus className="text-2xl" />
+                </span>
+                <p className="transform transition-all duration-500 ease-in-out group-hover/aboutNav:translate-x-[5px] group-hover/aboutNav:text-white group-hover/aboutNav:text-md group-[.active]/aboutNav:translate-x-[5px] group-[.active]/aboutNav:text-white group-[.active]/aboutNav:text-md ">
+                  Introduction
+                </p>
+              </Link>
             </li>
 
-            
             <li className="">
-           <Link spy={true} activeClass="active" to="skills" smooth={true} duration={500} className="flex cursor-pointer items-center gap-5 group/aboutNav">
-              <span className="inline-flex transform origin-left transition-transform duration-500 ease-in-out group-hover/aboutNav:scale-x-200 group-hover/aboutNav:text-white group-[.active]/aboutNav:scale-x-200 group-[.active]/aboutNav:text-white">
-                <FaMinus className="text-2xl" />
-              </span>
-              <p className="transform transition-all duration-500 ease-in-out group-hover/aboutNav:translate-x-[5px] group-hover/aboutNav:text-white group-hover/aboutNav:text-md group-[.active]/aboutNav:translate-x-[5px] group-[.active]/aboutNav:text-white group-[.active]/aboutNav:text-md ">
-                Skills
-              </p>
-            </Link>
+              <Link
+                spy={true}
+                activeClass="active"
+                to="skills"
+                smooth={true}
+                duration={500}
+                className="flex cursor-pointer items-center gap-5 group/aboutNav"
+              >
+                <span className="inline-flex transform origin-left transition-transform duration-500 ease-in-out group-hover/aboutNav:scale-x-200 group-hover/aboutNav:text-white group-[.active]/aboutNav:scale-x-200 group-[.active]/aboutNav:text-white">
+                  <FaMinus className="text-2xl" />
+                </span>
+                <p className="transform transition-all duration-500 ease-in-out group-hover/aboutNav:translate-x-[5px] group-hover/aboutNav:text-white group-hover/aboutNav:text-md group-[.active]/aboutNav:translate-x-[5px] group-[.active]/aboutNav:text-white group-[.active]/aboutNav:text-md ">
+                  Skills
+                </p>
+              </Link>
             </li>
             <li className="">
-           <Link spy={true} activeClass="active" to="education" smooth={true} duration={500} className="cursor-pointer flex items-center gap-5 group/aboutNav">
-              <span className="inline-flex transform origin-left transition-transform duration-500 ease-in-out group-hover/aboutNav:scale-x-200 group-hover/aboutNav:text-white group-[.active]/aboutNav:scale-x-200 group-[.active]/aboutNav:text-white">
-                <FaMinus className="text-2xl" />
-              </span>
-              <p className="transform transition-all duration-500 ease-in-out group-hover/aboutNav:translate-x-[5px] group-hover/aboutNav:text-white group-hover/aboutNav:text-md group-[.active]/aboutNav:translate-x-[5px] group-[.active]/aboutNav:text-white group-[.active]/aboutNav:text-md ">
-                Education
-              </p>
-            </Link>
+              <Link
+                spy={true}
+                activeClass="active"
+                to="education"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer flex items-center gap-5 group/aboutNav"
+              >
+                <span className="inline-flex transform origin-left transition-transform duration-500 ease-in-out group-hover/aboutNav:scale-x-200 group-hover/aboutNav:text-white group-[.active]/aboutNav:scale-x-200 group-[.active]/aboutNav:text-white">
+                  <FaMinus className="text-2xl" />
+                </span>
+                <p className="transform transition-all duration-500 ease-in-out group-hover/aboutNav:translate-x-[5px] group-hover/aboutNav:text-white group-hover/aboutNav:text-md group-[.active]/aboutNav:translate-x-[5px] group-[.active]/aboutNav:text-white group-[.active]/aboutNav:text-md ">
+                  Education
+                </p>
+              </Link>
             </li>
           </ul>
         </Element>
         <div>
-          <Element name="introduction" className="section flex flex-col gap-3 md:gap-6 mb-10 pt-10 md:pt-16 xl:pt-20">
+          <Element
+            name="introduction"
+            className="section flex flex-col gap-3 md:gap-6 mb-10 pt-10 md:pt-16 xl:pt-20"
+          >
             <h4 className="text-lg md:text-xl xl:text-2xl font-bold">
               Introduction
             </h4>
             <div className="flex flex-col gap-4 md:grid md:grid-cols-[25%_70%] md:gap-10">
               <div className="w-full h-full overflow-hidden rounded-xl">
                 <img
-                  src="public/assets/profile.jpg"
-                  alt=""
+                  src="/assets/profile.jpg"
+                  alt="Profile"
                   className="w-full h-full"
                 />
               </div>
@@ -102,7 +131,11 @@ const About = () => {
                   </p>
                 </div>
                 <p className="text-md xl:text-lg">
-                  I started my journey in 2025, and so far, it's been going pretty well. I've run into a lot of challenges, but I never let them stop me. I just keep solving problems and pushing myself to keep going. It's not always easy, but I'm proud of the progress I've made.
+                  I started my journey in 2025, and so far, it's been going
+                  pretty well. I've run into a lot of challenges, but I never
+                  let them stop me. I just keep solving problems and pushing
+                  myself to keep going. It's not always easy, but I'm proud of
+                  the progress I've made.
                 </p>
               </div>
             </div>
@@ -135,11 +168,11 @@ const About = () => {
                     <TfiGame />
                     <p>Games</p>
                   </div>
-                   <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
+                  <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
                     <LuCodeXml />
                     <p>Coding</p>
                   </div>
-                   <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
+                  <div className="flex flex-col items-center border  transform-all duration-300 hover:bg-white hover:text-black hover:border-white md:hover:shadow-[0_1px_15px_0px_rgba(255,255,255,0.3)] p-1 rounded-xl cursor-pointer">
                     <CiPlay1 />
                     <p>Movies</p>
                   </div>
@@ -160,7 +193,10 @@ const About = () => {
                 <div className="text-center bg-[#2c2c2c] p-3 rounded-lg transition-all duration-300 hover:shadow-[0_2px_15px_0px_rgba(255,255,255,0.4)] hover:-translate-y-1">
                   <p className="font-bold mb-2 md:mb-3">Website Development</p>
                   <p>
-                    Yes, there's still a lot I don't know, but I'm constantly learning — and learning is a big part of coding. So far, I've picked up skills in HTML, CSS, JavaScript, React, and Tailwind, and I'm excited to keep growing from here.
+                    Yes, there's still a lot I don't know, but I'm constantly
+                    learning — and learning is a big part of coding. So far,
+                    I've picked up skills in HTML, CSS, JavaScript, React, and
+                    Tailwind, and I'm excited to keep growing from here.
                   </p>
                   <p className="font-medium my-2 md:my-3">Tools i know</p>
                   <div className="flex gap-2">
@@ -322,26 +358,38 @@ const About = () => {
                 </div>
                 <div className="text-center bg-[#2c2c2c] p-3 rounded-lg transition-all duration-300 hover:shadow-[0_2px_15px_0px_rgba(255,255,255,0.4)] hover:-translate-y-1">
                   <p className="font-bold mb-2 md:mb-3">Soft Skills</p>
-                  <p>Besides technical skills, I've also developed some important soft skills, which I believe are a key part of personal growth. I'm social and friendly, and I have the ability to learn things quickly, which helps me adapt and work well with others.</p>
+                  <p>
+                    Besides technical skills, I've also developed some important
+                    soft skills, which I believe are a key part of personal
+                    growth. I'm social and friendly, and I have the ability to
+                    learn things quickly, which helps me adapt and work well
+                    with others.
+                  </p>
                   <p className="font-medium my-2 md:my-3">Skills i got</p>
                   <div className="flex flex-col sm:grid sm:grid-cols-2">
                     <div className="flex items-center gap-2 text-sm md:text-md xl:text-lg">
-                      <IoMdCheckmarkCircleOutline />Communication
+                      <IoMdCheckmarkCircleOutline />
+                      Communication
                     </div>
                     <div className="flex items-center gap-2 text-sm md:text-md xl:text-lg">
-                      <IoMdCheckmarkCircleOutline />Teamwork
+                      <IoMdCheckmarkCircleOutline />
+                      Teamwork
                     </div>
                     <div className="flex items-center gap-2 text-sm md:text-md xl:text-lg">
-                      <IoMdCheckmarkCircleOutline />Problem-Solving
+                      <IoMdCheckmarkCircleOutline />
+                      Problem-Solving
                     </div>
                     <div className="flex items-center gap-2 text-sm md:text-md xl:text-lg">
-                      <IoMdCheckmarkCircleOutline />Time Management
+                      <IoMdCheckmarkCircleOutline />
+                      Time Management
                     </div>
                     <div className="flex items-center gap-2 text-sm md:text-md xl:text-lg">
-                      <IoMdCheckmarkCircleOutline />Adaptability
+                      <IoMdCheckmarkCircleOutline />
+                      Adaptability
                     </div>
                     <div className="flex items-center gap-2 text-sm md:text-md xl:text-lg">
-                      <IoMdCheckmarkCircleOutline />Critical Thinking
+                      <IoMdCheckmarkCircleOutline />
+                      Critical Thinking
                     </div>
                   </div>
                 </div>
@@ -356,32 +404,56 @@ const About = () => {
               <div className="flex flex-col gap-10">
                 <div className=" md:flex-row md:gap-10 flex flex-col items-start md:items-center">
                   <div className="md:min-w-30 lg:min-w-40 lg:h-40 xl:min-w-60 xl:h-60 md:h-30 w-15 h-15 overflow-hidden rounded-full">
-                    <img src="https://theedunepal.ap-south-1.linodeobjects.com/schoolfair/clients/pashupatischool/logo/232237712-111802097819680-345934742964457969-n_1645605190.webp" alt="" className="w-full h-full" />
+                    <img
+                      src="https://theedunepal.ap-south-1.linodeobjects.com/schoolfair/clients/pashupatischool/logo/232237712-111802097819680-345934742964457969-n_1645605190.webp"
+                      alt=""
+                      className="w-full h-full"
+                    />
                   </div>
                   <div>
                     <div>
                       <p className="text-xl">Pashupati Secondary School</p>
-                    <div className="flex justify-between text-[#a7a7a7]">
-                      <p>Ranjha,Nepalgunj</p>
-                    <p>2012-2022</p>
+                      <div className="flex justify-between text-[#a7a7a7]">
+                        <p>Ranjha,Nepalgunj</p>
+                        <p>2012-2022</p>
+                      </div>
                     </div>
-                    </div>
-                    <p>Pashupati Secondary School, Nepalgunj is a community-based academic institute in Ranjha, Banke district, Nepal. I feel lucky to have studied there—it gave me all the essential knowledge I needed at the time and left me with many unforgettable memories with my classmates.</p>
+                    <p>
+                      Pashupati Secondary School, Nepalgunj is a community-based
+                      academic institute in Ranjha, Banke district, Nepal. I
+                      feel lucky to have studied there—it gave me all the
+                      essential knowledge I needed at the time and left me with
+                      many unforgettable memories with my classmates.
+                    </p>
                   </div>
                 </div>
-               <div className=" md:flex-row md:gap-10 flex flex-col items-start md:items-center">
-                   <div className="md:min-w-30 lg:min-w-40 lg:h-40 xl:min-w-60 xl:h-60 md:h-30 w-15 h-15 overflow-hidden rounded-full">
-                    <img src="https://th.bing.com/th/id/OIP.f_s4iRCCHKh54KJeglClgAAAAA?cb=iwp2&rs=1&pid=ImgDetMain" alt="" className="w-full h-full" />
+                <div className=" md:flex-row md:gap-10 flex flex-col items-start md:items-center">
+                  <div className="md:min-w-30 lg:min-w-40 lg:h-40 xl:min-w-60 xl:h-60 md:h-30 w-15 h-15 overflow-hidden rounded-full">
+                    <img
+                      src="https://th.bing.com/th/id/OIP.f_s4iRCCHKh54KJeglClgAAAAA?cb=iwp2&rs=1&pid=ImgDetMain"
+                      alt=""
+                      className="w-full h-full"
+                    />
                   </div>
                   <div>
                     <div>
-                      <p className="text-xl">Sky Rider Secondary English Boarding School</p>
-                    <div className="flex justify-between text-[#a7a7a7]">
-                      <p>Tandi, Chitwan</p>
-                    <p>2022-2024</p>
+                      <p className="text-xl">
+                        Sky Rider Secondary English Boarding School
+                      </p>
+                      <div className="flex justify-between text-[#a7a7a7]">
+                        <p>Tandi, Chitwan</p>
+                        <p>2022-2024</p>
+                      </div>
                     </div>
-                    </div>
-                    <p>Skyrider is a leading +2 institution in Science and Management, known for top results at both district and national levels, and even gaining recognition abroad. Studying here not only improved my academic knowledge but also helped me grow personally. I learned important life skills, built self-confidence, and understood the real meaning of self-improvement and discipline.</p>
+                    <p>
+                      Skyrider is a leading +2 institution in Science and
+                      Management, known for top results at both district and
+                      national levels, and even gaining recognition abroad.
+                      Studying here not only improved my academic knowledge but
+                      also helped me grow personally. I learned important life
+                      skills, built self-confidence, and understood the real
+                      meaning of self-improvement and discipline.
+                    </p>
                   </div>
                 </div>
               </div>
