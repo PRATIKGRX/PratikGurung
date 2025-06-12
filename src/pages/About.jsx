@@ -119,6 +119,7 @@ const About = () => {
                   src="/assets/profile.jpg"
                   alt="Profile"
                   className="w-full h-full"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col justify-between py-2">

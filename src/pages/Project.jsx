@@ -32,10 +32,10 @@ const Project = () => {
                   </p>
                   <div className="flex gap-5 mt-2">
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 hover:bg-white hover:text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://weather-app-ba9e1.web.app/">Visit page</a>
+                      <a href="https://weather-app-ba9e1.web.app/" rel="noopener noreferrer">Visit page</a>
                     </button>
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 bg-white text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://github.com/PRATIKGRX/Weather-App">Git hub</a>
+                      <a href="https://github.com/PRATIKGRX/Weather-App" rel="noopener noreferrer">Git hub</a>
                     </button>
                   </div>
                 </div>
@@ -45,6 +45,7 @@ const Project = () => {
                   src="/assets/project-2.png"
                   alt="project-2"
                   className="w-full h-full object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-110 z-0"
+                loading="lazy"
                 />
               </div>
 
@@ -59,11 +60,11 @@ const Project = () => {
                   </p>
                   <div className="flex gap-5 mt-2">
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 hover:bg-white hover:text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://gaming-website-k8tt.vercel.app/">Visit page</a>
+                      <a href="https://gaming-website-k8tt.vercel.app/" rel="noopener noreferrer">Visit page</a>
                       
                     </button>
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 bg-white text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://github.com/PRATIKGRX/gaming-website">Git hub</a>
+                      <a href="https://github.com/PRATIKGRX/gaming-website" rel="noopener noreferrer">Git hub</a>
                     </button>
                   </div>
                 </div>
@@ -73,6 +74,7 @@ const Project = () => {
                   src="/assets/project-1.png"
                   alt="project-1"
                   className="w-full h-full object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-110 z-0"
+                loading="lazy"
                 />
               </div>
               <div className="relative w-full h-full overflow-hidden rounded-xl group">
@@ -86,10 +88,10 @@ const Project = () => {
                   </p>
                   <div className="flex gap-5 mt-2">
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 hover:bg-white hover:text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://pratikgrx.github.io/Simple_Calculator/">Visit page</a>
+                      <a href="https://pratikgrx.github.io/Simple_Calculator/" rel="noopener noreferrer">Visit page</a>
                     </button>
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 bg-white text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://github.com/PRATIKGRX/Simple_Calculator">Git hub</a>
+                      <a href="https://github.com/PRATIKGRX/Simple_Calculator" rel="noopener noreferrer">Git hub</a>
                     </button>
                   </div>
                 </div>
@@ -99,6 +101,7 @@ const Project = () => {
                   src="/assets/project-3.png"
                   alt="project-3"
                   className="w-full h-full object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-110 z-0"
+                loading="lazy"
                 />
               </div>
               <div className="relative w-full h-full overflow-hidden rounded-xl group">
@@ -112,10 +115,10 @@ const Project = () => {
                   </p>
                   <div className="flex gap-5 mt-2">
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 hover:bg-white hover:text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://pratikgrx.github.io/Portfolio_Dummy_personal/">Visit page</a>
+                      <a href="https://pratikgrx.github.io/Portfolio_Dummy_personal/" rel="noopener noreferrer">Visit page</a>
                     </button>
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 bg-white text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://github.com/PRATIKGRX/Portfolio_Dummy_personal">Git hub</a>
+                      <a href="https://github.com/PRATIKGRX/Portfolio_Dummy_personal" rel="noopener noreferrer">Git hub</a>
                     </button>
                   </div>
                 </div>
@@ -125,6 +128,7 @@ const Project = () => {
                   src="/assets/project-4.png"
                   alt="project-4"
                   className="w-full h-full object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-110 z-0"
+                loading="lazy"
                 />
               </div>
               <div className="relative w-full h-full overflow-hidden rounded-xl group">
@@ -138,10 +142,10 @@ const Project = () => {
                   </p>
                   <div className="flex gap-5 mt-2">
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 hover:bg-white hover:text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://pratik-grx3d-project.vercel.app/">Visit page</a>
+                      <a href="https://pratik-grx3d-project.vercel.app/" rel="noopener noreferrer">Visit page</a>
                     </button>
                     <button className="border border-white px-4 py-2 text-md font-medium md:text-l rounded-sm transition-all duration-500 bg-white text-black cursor-pointer hover:shadow-[0_2px_20px_1px_rgba(255,255,255,0.5)] hover:rounded-4xl">
-                      <a href="https://github.com/PRATIKGRX/PratikGrx3dProject">Git hub</a>
+                      <a href="https://github.com/PRATIKGRX/PratikGrx3dProject" rel="noopener noreferrer">Git hub</a>
                     </button>
                   </div>
                 </div>
@@ -151,6 +155,7 @@ const Project = () => {
                   src="/assets/project-5.png"
                   alt="project-5"
                   className="w-full h-full object-cover object-center transition-transform duration-500 ease-in-out group-hover:scale-110 z-0"
+                loading="lazy"
                 />
               </div>
               

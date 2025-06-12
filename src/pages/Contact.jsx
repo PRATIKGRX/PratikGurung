@@ -50,12 +50,14 @@ const [visible, setVisible] = useState(false);
           <a
                 className="sm:hover:scale-110 transition-all duration-200 cursor-pointer"
                 href="mailto:pratikgrx06@gmail.com"
+                rel="noopener noreferrer"
               >
                 <PiGoogleLogoBold />
               </a>
               <a
                 className="sm:hover:scale-110 transition-all duration-200 cursor-pointer"
                 href="https://www.instagram.com/pratik_izz.me?igsh=MWU3ZGtuNmdsdmQ0Zg=="
+                rel="noopener noreferrer"
               >
                 <FaInstagram />
               </a>
@@ -63,11 +65,12 @@ const [visible, setVisible] = useState(false);
               <a
                 className="sm:hover:scale-110 transition-all duration-200 cursor-pointer"
                 href="https://github.com/PRATIKGRX"
+                rel="noopener noreferrer"
               >
                 <VscGithubAlt />
               </a>
 
-              <a className="sm:hover:scale-110 transition-all duration-200 cursor-pointer" href="https://www.facebook.com/gurung.kochoro.3152">
+              <a className="sm:hover:scale-110 transition-all duration-200 cursor-pointer" href="https://www.facebook.com/pratikgrx06" rel="noopener noreferrer">
                 <AiOutlineFacebook  />
               </a>
         </div>
